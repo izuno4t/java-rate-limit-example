@@ -10,7 +10,7 @@ public class Example {
 
         var foo = new Foo();
 
-        IntStream.rangeClosed(1, 1000000).forEach(it -> {
+        IntStream.rangeClosed(1, 100).forEach(it -> {
                     foo.print(it);
                     try {
                         Thread.sleep(100); // 1秒間だけ処理を止める

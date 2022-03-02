@@ -11,7 +11,9 @@ public class Foo {
 
     //    private final Refill refill = Refill.greedy(10, Duration.ofSeconds(1));
     private final Refill refill = Refill.intervally(10, Duration.ofSeconds(1));
+
     private final Bandwidth limit = Bandwidth.classic(10, refill);
+
     private final Bucket bucket = Bucket.builder().addLimit(limit).build();
 
     public void print(int count) {
@@ -19,8 +21,5 @@ public class Foo {
         if (acquired) {
             System.out.println("count=" + count);
         }
-//        else {
-//            System.out.println("rate limit !!");
-//        }
     }
 }

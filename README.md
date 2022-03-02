@@ -19,17 +19,19 @@
 
 ### Bucket4j
 
+- [vladimir-bukhtoyarov / bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j)
 - [Rate Limiting a Spring API Using Bucket4j | Baeldung](https://www.baeldung.com/spring-bucket4j)
 - [Rate limiting Spring MVC endpoints with bucket4j](https://golb.hplar.ch/2019/08/rate-limit-bucket4j.html)
 - [JavaでRate Limitをする方法(bucket4j)](https://yu-memorandum.hatenablog.com/entry/2020/08/16/021735)
+- [bucket4j を用いた Rate-Limiting](https://qiita.com/moaikids/items/63a01dddc0c6870e1dbb)
 
 
 ### Armeria
 
 - [Armeria](https://armeria.dev/)
+- [line / armeria](https://github.com/line/armeria)
 
 
 
 
 
-https://qiita.com/moaikids/items/63a01dddc0c6870e1dbb

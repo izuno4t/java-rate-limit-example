@@ -13,7 +13,7 @@ public class Example {
         IntStream.rangeClosed(1, 100).forEach(it -> {
                     foo.print(it);
                     try {
-                        Thread.sleep(10); // 1秒間だけ処理を止める
+                        Thread.sleep(10);
                     } catch (InterruptedException e) {
                     }
                 }
